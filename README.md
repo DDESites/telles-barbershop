@@ -3,6 +3,9 @@
 Site moderno, elegante e responsivo da **Telles Barbershop**, construído a partir do PRD em `docs/PRD.md`.
 Identidade visual: leão coroado com tesouras cruzadas, dourado metálico e vermelho queimado.
 
+**Site no ar:** https://ddesites.github.io/telles-barbershop/
+**Repositório:** https://github.com/DDESites/telles-barbershop
+
 Construído em **HTML, CSS e JavaScript puros** — sem dependências, sem build.
 
 ## Como ver o site
