@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria — Telles Barbershop</title>
+  <meta name="description" content="Galeria da Telles Barbershop: cortes, barbas, ambiente e equipe. Fotos reais publicadas com autorização.">
+  <meta name="theme-color" content="#171310">
+  <meta property="og:title" content="Galeria — Telles Barbershop">
+  <meta property="og:description" content="Trabalhos, espaço e equipe da Telles Barbershop.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="marca" href="index.html">
+        <img class="marca__emblema" src="img/emblema.svg" alt="Telles Barbershop — emblema do leão coroado com tesouras cruzadas" width="50" height="50">
+        <span class="marca__lockup">
+          <span class="marca__nome">TELLES</span>
+          <span class="marca__sub">Barbershop</span>
+        </span>
+      </a>
+
+      <nav class="nav-principal" id="nav-principal" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="sobre.html">A barbearia</a>
+        <a href="galeria.html" aria-current="page">Galeria</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <div class="header-acoes">
+        <a class="btn btn--vermelho btn--pequeno btn--cabecalho"
+           data-zap="Olá! Vim pelo site da Telles Barbershop e gostaria de agendar um horário."
+           href="#">Agendar horário</a>
+        <button class="btn-menu" id="btn-menu" aria-expanded="false" aria-controls="nav-principal" aria-label="Abrir menu">
+          <span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="pagina-hero">
+      <div class="container">
+        <img class="marca__emblema--grande" src="img/emblema.svg" alt="" width="84" height="84">
+        <span class="acento acento--centro">Galeria</span>
+        <h1>Trabalhos, espaço <span class="texto-ouro">e equipe</span></h1>
+        <p>
+          Clique em uma imagem para ver em tamanho ampliado. As artes abaixo são espaços reservados:
+          as fotos reais da Telles Barbershop entram aqui assim que forem enviadas e autorizadas.
+        </p>
+      </div>
+    </section>
+
+    <section class="secao secao--preto">
+      <div class="container">
+        <div class="grade-galeria">
+
+          <button type="button" class="galeria-item revelar" data-legenda="Cortes — foto real a substituir">
+            <img src="img/galeria-corte.svg" alt="Arte de apoio representando cortes de cabelo — espaço reservado para foto real" width="800" height="800" loading="lazy">
+          </button>
+
+          <button type="button" class="galeria-item revelar" data-legenda="Barba — foto real a substituir">
+            <img src="img/galeria-barba.svg" alt="Arte de apoio representando o serviço de barba — espaço reservado para foto real" width="800" height="800" loading="lazy">
+          </button>
+
+          <button type="button" class="galeria-item revelar" data-legenda="Corte e barba — foto real a substituir">
+            <img src="img/galeria-combo.svg" alt="Arte de apoio representando o combo corte e barba — espaço reservado para foto real" width="800" height="800" loading="lazy">
+          </button>
+
+          <button type="button" class="galeria-item revelar" data-legenda="O espaço — foto real a substituir">
+            <img src="img/galeria-espaco.svg" alt="Arte de apoio representando o ambiente da barbearia — espaço reservado para foto real" width="800" height="800" loading="lazy">
+          </button>
+
+          <button type="button" class="galeria-item revelar" data-legenda="A equipe — foto real a substituir">
+            <img src="img/galeria-equipe.svg" alt="Arte de apoio representando a equipe da barbearia — espaço reservado para foto real" width="800" height="800" loading="lazy">
+          </button>
+
+          <button type="button" class="galeria-item revelar" data-legenda="Detalhes — foto real a substituir">
+            <img src="img/galeria-detalhes.svg" alt="Arte de apoio representando detalhes e produtos da barbearia — espaço reservado para foto real" width="800" height="800" loading="lazy">
+          </button>
+
+        </div>
+
+        <div class="nota-legal nota-legal--centro revelar">
+          Fotos de clientes só são publicadas com autorização de uso.
+          <a data-zap="Olá! Vim pelo site da Telles Barbershop e quero enviar uma foto ou autorizar o uso da minha imagem." href="#">Envie sua autorização pelo WhatsApp</a>.
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--carvao">
+      <div class="container">
+        <div class="painel-cta revelar">
+          <span class="acento acento--centro">Agende seu horário</span>
+          <h2>Gostou do que viu?</h2>
+          <p>
+            O próximo trabalho pode ser o seu. Marque um horário pela WhatsApp e venha conhecer
+            a Telles Barbershop de perto.
+          </p>
+          <div class="painel-cta__acoes">
+            <a class="btn btn--vermelho"
+               data-zap="Olá! Vim pelo site da Telles Barbershop e gostaria de agendar um horário."
+               href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7a11 11 0 0 0 4.2 3.7c.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.4z"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a class="btn btn--contorno" href="servicos.html">Conhecer os serviços</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="divisor-poste" aria-hidden="true"></div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grade">
+        <div>
+          <div class="footer-marca">
+            <img src="img/emblema.svg" alt="Telles Barbershop" width="54" height="54">
+            <span class="marca__lockup">
+              <span class="marca__nome">TELLES</span>
+              <span class="marca__sub">Barbershop</span>
+            </span>
+          </div>
+          <p>Barbearia clássica com atendimento atual: corte, barba e cuidados masculinos feitos com técnica e atenção ao detalhe.</p>
+          <div class="redes">
+            <a href="https://instagram.com/tellesbarbearia" target="_blank" rel="noopener" aria-label="Instagram da Telles Barbershop">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a data-zap="Olá! Vim pelo site da Telles Barbershop." href="#" aria-label="Falar no WhatsApp com a Telles Barbershop">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7a11 11 0 0 0 4.2 3.7c.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.4z"/></svg>
+            </a>
+            <a href="tel:+556199999999" aria-label="Ligar para a Telles Barbershop">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2>Navegação</h2>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html">A barbearia</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Serviços</h2>
+          <ul>
+            <li><a href="servicos.html#corte">Corte masculino</a></li>
+            <li><a href="servicos.html#barba">Barba</a></li>
+            <li><a href="servicos.html#corte-barba">Corte e barba</a></li>
+            <li><a href="servicos.html#acabamento">Acabamento</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Contato</h2>
+          <ul>
+            <li><a href="tel:+556199999999">(61) 99999-9999</a> <span class="a-confirmar">a confirmar</span></li>
+            <li><a href="https://instagram.com/tellesbarbearia" target="_blank" rel="noopener">@tellesbarbearia</a> <span class="a-confirmar">a confirmar</span></li>
+            <li>Endereço completo <span class="a-confirmar">a confirmar</span></li>
+            <li>Seg — Sáb <span class="a-confirmar">horário a confirmar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-obs">
+        <span>© <span id="ano">2026</span> Telles Barbershop. Todos os direitos reservados.</span>
+        <span>Preços, horários e localização são confirmados pelo atendimento.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox da galeria -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada da imagem" aria-hidden="true">
+    <button type="button" class="lightbox__fechar" id="lightbox-fechar" aria-label="Fechar visualização"></button>
+    <button type="button" class="lightbox__nav lightbox__nav--ant" id="lightbox-ant" aria-label="Imagem anterior"></button>
+    <figure class="lightbox__figura">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption class="lightbox__legenda" id="lightbox-legenda"></figcaption>
+    </figure>
+    <button type="button" class="lightbox__nav lightbox__nav--prox" id="lightbox-prox" aria-label="Próxima imagem"></button>
+  </div>
+
+  <a class="zap-flutuante" data-zap="Olá! Vim pelo site da Telles Barbershop e gostaria de agendar um horário."
+     href="#" aria-label="Agendar horário pelo WhatsApp da Telles Barbershop">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7a11 11 0 0 0 4.2 3.7c.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.4z"/></svg>
+    <span>Agendar horário</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

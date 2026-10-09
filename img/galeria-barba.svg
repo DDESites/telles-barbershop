@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Arte de apoio representando o serviço de barba — espaço reservado para foto real da galeria">
+  <defs>
+    <radialGradient id="bgB" cx="50%" cy="42%" r="85%">
+      <stop offset="0%" stop-color="#2E1C12"/>
+      <stop offset="70%" stop-color="#171310"/>
+      <stop offset="100%" stop-color="#0E0B08"/>
+    </radialGradient>
+    <linearGradient id="ouroGB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="55%" stop-color="#F2D47B"/>
+      <stop offset="100%" stop-color="#C98A33"/>
+    </linearGradient>
+    <linearGradient id="acoB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F2EC"/>
+      <stop offset="100%" stop-color="#B9AC97"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgB)"/>
+  <rect x="28" y="28" width="744" height="744" fill="none" stroke="#A96024" stroke-width="2"/>
+  <rect x="38" y="38" width="724" height="724" fill="none" stroke="#F2D47B" stroke-width="1" opacity="0.45"/>
+
+  <!-- Navalha aberta -->
+  <g transform="translate(400,340) rotate(-16)">
+    <rect x="-190" y="-26" width="170" height="52" rx="20" fill="#241B14" stroke="url(#ouroGB)" stroke-width="5"/>
+    <circle cx="-44" cy="0" r="9" fill="#F2D47B"/>
+    <path d="M-20,-18 q150,-116 300,-96 q24,50 -14,108 q-96,42 -286,30 z" fill="url(#acoB)" stroke="#A96024" stroke-width="4.5"/>
+    <path d="M-4,-22 q136,-96 274,-80" fill="none" stroke="#F5F2EC" stroke-width="5" opacity="0.85" stroke-linecap="round"/>
+  </g>
+
+  <!-- Toalha quente dobrada com vapor -->
+  <g transform="translate(260,470)">
+    <rect x="-90" y="0" width="180" height="34" rx="14" fill="#E8D8A7" stroke="#A96024" stroke-width="4"/>
+    <rect x="-78" y="-32" width="180" height="34" rx="14" fill="#F5F2EC" stroke="#A96024" stroke-width="4"/>
+    <g fill="none" stroke="#F2D47B" stroke-width="5" stroke-linecap="round" opacity="0.7">
+      <path d="M-40,-64 q12,-18 0,-36 q-12,-18 0,-34"/>
+      <path d="M20,-72 q12,-18 0,-36 q-12,-18 0,-34"/>
+      <path d="M80,-64 q12,-18 0,-36 q-12,-18 0,-34"/>
+    </g>
+  </g>
+
+  <text x="400" y="620" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" letter-spacing="8" fill="url(#ouroGB)">BARBA</text>
+  <g stroke="#A96024" stroke-width="1.6">
+    <line x1="230" y1="652" x2="370" y2="652"/>
+    <line x1="430" y1="652" x2="570" y2="652"/>
+  </g>
+  <path d="M400,645 l7,7 -7,7 -7,-7 z" fill="#F2D47B"/>
+  <text x="400" y="706" text-anchor="middle" font-family="'Segoe UI', Verdana, Arial, sans-serif" font-size="17" letter-spacing="6" fill="#E8D8A7" opacity="0.75">ESPAÇO RESERVADO PARA FOTO REAL</text>
+</svg>

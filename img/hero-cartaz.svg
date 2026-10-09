@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-label="Cartaz da Telles Barbershop com emblema do leão coroado, tesouras cruzadas e o nome da barbearia">
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#241B14"/>
+      <stop offset="70%" stop-color="#171310"/>
+      <stop offset="100%" stop-color="#0E0B08"/>
+    </radialGradient>
+    <pattern id="listras" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="18" height="18" fill="none"/>
+      <rect width="2" height="18" fill="#F2D47B" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="ouroTxt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="55%" stop-color="#F2D47B"/>
+      <stop offset="100%" stop-color="#A96024"/>
+    </linearGradient>
+    <radialGradient id="fundo" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#A03617"/>
+      <stop offset="62%" stop-color="#8F2B13"/>
+      <stop offset="100%" stop-color="#5E1A0A"/>
+    </radialGradient>
+    <linearGradient id="ouro" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="45%" stop-color="#F2D47B"/>
+      <stop offset="100%" stop-color="#C98A33"/>
+    </linearGradient>
+    <linearGradient id="ouroEscuro" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3B85C"/>
+      <stop offset="100%" stop-color="#A96024"/>
+    </linearGradient>
+    <linearGradient id="marfim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5ECD2"/>
+      <stop offset="100%" stop-color="#E8D8A7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1120" fill="url(#vignette)"/>
+  <rect width="900" height="1120" fill="url(#listras)"/>
+
+  <!-- Moldura -->
+  <rect x="30" y="30" width="840" height="1060" fill="none" stroke="#A96024" stroke-width="2.5"/>
+  <rect x="42" y="42" width="816" height="1036" fill="none" stroke="#F2D47B" stroke-width="1" opacity="0.55"/>
+  <g fill="#F2D47B">
+    <path d="M30,86 L44,72 L58,86 L44,100 Z"/>
+    <path d="M842,86 L856,72 L870,86 L856,100 Z"/>
+    <path d="M30,1034 L44,1020 L58,1034 L44,1048 Z"/>
+    <path d="M842,1034 L856,1020 L870,1034 L856,1048 Z"/>
+  </g>
+
+  <!-- Chamada superior -->
+  <text x="450" y="128" text-anchor="middle" font-family="'Segoe UI', Verdana, Arial, sans-serif" font-size="22" letter-spacing="10" fill="#E8D8A7" opacity="0.85">TRADIÇÃO · ESTILO · RESPEITO</text>
+  <g stroke="#A96024" stroke-width="1.6">
+    <line x1="220" y1="156" x2="418" y2="156"/>
+    <line x1="482" y1="156" x2="680" y2="156"/>
+  </g>
+  <path d="M450,148 l8,8 -8,8 -8,-8 z" fill="#F2D47B"/>
+
+  <!-- Emblema -->
+  <g transform="translate(240,215) scale(1.75)">
+    <circle cx="120" cy="120" r="120" fill="url(#fundo)"/>
+    <circle cx="120" cy="120" r="113" fill="none" stroke="url(#ouro)" stroke-width="2.4"/>
+    <circle cx="120" cy="120" r="106.5" fill="none" stroke="#A96024" stroke-width="1"/>
+    <g fill="none" stroke="url(#ouro)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="rotate(38 120 118)">
+        <path d="M120,42 L124.5,66 L122.5,120 L117.5,120 L115.5,66 Z" fill="url(#ouro)" stroke="#7A4018" stroke-width="1.6"/>
+        <circle cx="120" cy="124" r="4.2" fill="#7A4018" stroke="none"/>
+        <path d="M117.5,127 C113,152 107,168 108.5,178"/>
+        <path d="M122.5,127 C127,152 133,168 131.5,178"/>
+        <circle cx="107" cy="190" r="10"/>
+        <circle cx="133" cy="190" r="10"/>
+      </g>
+      <g transform="rotate(-38 120 118)">
+        <path d="M120,42 L124.5,66 L122.5,120 L117.5,120 L115.5,66 Z" fill="url(#ouro)" stroke="#7A4018" stroke-width="1.6"/>
+        <circle cx="120" cy="124" r="4.2" fill="#7A4018" stroke="none"/>
+        <path d="M117.5,127 C113,152 107,168 108.5,178"/>
+        <path d="M122.5,127 C127,152 133,168 131.5,178"/>
+        <circle cx="107" cy="190" r="10"/>
+        <circle cx="133" cy="190" r="10"/>
+      </g>
+    </g>
+    <g fill="url(#ouroEscuro)" stroke="#5E1A0A" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M114.6,74.3 L120,40 L125.4,74.3 Z"/>
+      <path d="M131.8,75.6 L147.6,51.5 L141.7,79.7 Z"/>
+      <path d="M147.1,83.3 L175.2,62.8 L154.7,90.9 Z"/>
+      <path d="M158.3,96.3 L186.5,90.4 L162.4,106.2 Z"/>
+      <path d="M163.7,112.6 L198,118 L163.7,123.4 Z"/>
+      <path d="M162.4,129.8 L186.5,145.6 L158.3,139.7 Z"/>
+      <path d="M154.7,145.1 L175.2,173.2 L147.1,152.7 Z"/>
+      <path d="M141.7,156.3 L147.6,184.5 L131.8,160.4 Z"/>
+      <path d="M125.4,161.7 L120,196 L114.6,161.7 Z"/>
+      <path d="M108.2,160.4 L92.4,184.5 L98.3,156.3 Z"/>
+      <path d="M92.9,152.7 L64.8,173.2 L85.3,145.1 Z"/>
+      <path d="M81.7,139.7 L53.5,145.6 L77.6,129.8 Z"/>
+      <path d="M76.3,123.4 L42,118 L76.3,112.6 Z"/>
+      <path d="M77.6,106.2 L53.5,90.4 L81.7,96.3 Z"/>
+      <path d="M85.3,90.9 L64.8,62.8 L92.9,83.3 Z"/>
+      <path d="M98.3,79.7 L92.4,51.5 L108.2,75.6 Z"/>
+    </g>
+    <g>
+      <circle cx="87" cy="85" r="9.5" fill="url(#ouro)" stroke="#7A4018" stroke-width="1.4"/>
+      <circle cx="87" cy="85" r="4.4" fill="#8F2B13"/>
+      <circle cx="153" cy="85" r="9.5" fill="url(#ouro)" stroke="#7A4018" stroke-width="1.4"/>
+      <circle cx="153" cy="85" r="4.4" fill="#8F2B13"/>
+    </g>
+    <circle cx="120" cy="118" r="44" fill="url(#ouro)" stroke="#7A4018" stroke-width="1.8"/>
+    <g fill="none" stroke="#7A4018" stroke-width="2.6" stroke-linecap="round">
+      <path d="M97,102 Q105,96 113,101"/>
+      <path d="M127,101 Q135,96 143,102"/>
+    </g>
+    <g>
+      <path d="M99,111 q6,-7 12,0 q-6,7 -12,0 z" fill="#2A140C"/>
+      <circle cx="105" cy="109.4" r="1.5" fill="#F7E6B0"/>
+      <path d="M129,111 q6,-7 12,0 q-6,7 -12,0 z" fill="#2A140C"/>
+      <circle cx="135" cy="109.4" r="1.5" fill="#F7E6B0"/>
+    </g>
+    <path d="M120,118 l7.5,7 q1.6,1.8 -0.8,2.8 l-13.4,0 q-2.4,-1 -0.8,-2.8 z" fill="#2A140C"/>
+    <path d="M120,128 v5.5" stroke="#2A140C" stroke-width="2.4" stroke-linecap="round"/>
+    <g fill="url(#marfim)" stroke="#C98A33" stroke-width="1.2">
+      <circle cx="111" cy="139.5" r="10.5"/>
+      <circle cx="129" cy="139.5" r="10.5"/>
+    </g>
+    <path d="M112,141 a8.5,8.5 0 0 0 16,0" fill="none" stroke="#2A140C" stroke-width="2.4" stroke-linecap="round"/>
+    <g fill="#7A4018">
+      <circle cx="106.5" cy="137" r="0.9"/><circle cx="104.8" cy="141" r="0.9"/><circle cx="107" cy="144.5" r="0.9"/>
+      <circle cx="133.5" cy="137" r="0.9"/><circle cx="135.2" cy="141" r="0.9"/><circle cx="133" cy="144.5" r="0.9"/>
+    </g>
+    <g>
+      <path d="M99,45 L99,28 L109,37 L120,20 L131,37 L141,28 L141,45 Z" fill="url(#ouro)" stroke="#7A4018" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="96" y="45" width="48" height="10" rx="3.5" fill="url(#ouroEscuro)" stroke="#7A4018" stroke-width="1.6"/>
+      <g fill="#F7E6B0" stroke="#7A4018" stroke-width="1.2">
+        <circle cx="99" cy="25.5" r="3.4"/>
+        <circle cx="120" cy="17" r="3.8"/>
+        <circle cx="141" cy="25.5" r="3.4"/>
+      </g>
+      <g fill="#8F2B13">
+        <circle cx="110" cy="50" r="1.8"/>
+        <circle cx="120" cy="50" r="1.8"/>
+        <circle cx="130" cy="50" r="1.8"/>
+      </g>
+    </g>
+    <g fill="url(#ouro)">
+      <path d="M120,205 l4.5,4.5 -4.5,4.5 -4.5,-4.5 z"/>
+      <path d="M104,207 l3,3 -3,3 -3,-3 z" opacity="0.85"/>
+      <path d="M136,207 l3,3 -3,3 -3,-3 z" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- Nome da marca -->
+  <text x="450" y="770" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="110" letter-spacing="10" fill="url(#ouroTxt)">TELLES</text>
+  <text x="450" y="826" text-anchor="middle" font-family="'Segoe UI', Verdana, Arial, sans-serif" font-size="30" letter-spacing="20" fill="#E8D8A7">BARBERSHOP</text>
+
+  <!-- Ornamento inferior -->
+  <g stroke="#A96024" stroke-width="1.6">
+    <line x1="250" y1="880" x2="428" y2="880"/>
+    <line x1="472" y1="880" x2="650" y2="880"/>
+  </g>
+  <path d="M450,872 l8,8 -8,8 -8,-8 z" fill="#F2D47B"/>
+
+  <text x="450" y="948" text-anchor="middle" font-family="'Segoe UI', Verdana, Arial, sans-serif" font-size="24" letter-spacing="9" fill="#E8D8A7" opacity="0.85">CORTE · BARBA · ACABAMENTO</text>
+  <text x="450" y="1010" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#F2D47B" opacity="0.9">Seu estilo, com tradição.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <defs>
+    <radialGradient id="fundo" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#A03617"/>
+      <stop offset="62%" stop-color="#8F2B13"/>
+      <stop offset="100%" stop-color="#5E1A0A"/>
+    </radialGradient>
+    <linearGradient id="ouro" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="45%" stop-color="#F2D47B"/>
+      <stop offset="100%" stop-color="#C98A33"/>
+    </linearGradient>
+    <linearGradient id="ouroEscuro" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3B85C"/>
+      <stop offset="100%" stop-color="#A96024"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="120" fill="url(#fundo)"/>
+  <circle cx="120" cy="120" r="110" fill="none" stroke="url(#ouro)" stroke-width="4"/>
+
+  <g fill="url(#ouroEscuro)" stroke="#5E1A0A" stroke-width="2" stroke-linejoin="round">
+    <path d="M114.6,74.3 L120,44 L125.4,74.3 Z"/>
+    <path d="M131.8,75.6 L147.6,55.5 L141.7,79.7 Z"/>
+    <path d="M147.1,83.3 L173,65 L154.7,90.9 Z"/>
+    <path d="M158.3,96.3 L184,91.5 L162.4,106.2 Z"/>
+    <path d="M163.7,112.6 L194,118 L163.7,123.4 Z"/>
+    <path d="M162.4,129.8 L184,144.5 L158.3,139.7 Z"/>
+    <path d="M154.7,145.1 L173,171 L147.1,152.7 Z"/>
+    <path d="M141.7,156.3 L147.6,180.5 L131.8,160.4 Z"/>
+    <path d="M125.4,161.7 L120,192 L114.6,161.7 Z"/>
+    <path d="M108.2,160.4 L92.4,180.5 L98.3,156.3 Z"/>
+    <path d="M92.9,152.7 L67,171 L85.3,145.1 Z"/>
+    <path d="M81.7,139.7 L56,144.5 L77.6,129.8 Z"/>
+    <path d="M76.3,123.4 L46,118 L76.3,112.6 Z"/>
+    <path d="M77.6,106.2 L56,91.5 L81.7,96.3 Z"/>
+    <path d="M85.3,90.9 L67,65 L92.9,83.3 Z"/>
+    <path d="M98.3,79.7 L92.4,55.5 L108.2,75.6 Z"/>
+  </g>
+
+  <circle cx="120" cy="118" r="44" fill="url(#ouro)" stroke="#7A4018" stroke-width="2"/>
+  <g fill="#2A140C">
+    <path d="M99,111 q6,-7 12,0 q-6,7 -12,0 z"/>
+    <path d="M129,111 q6,-7 12,0 q-6,7 -12,0 z"/>
+    <path d="M120,118 l7.5,7 q1.6,1.8 -0.8,2.8 l-13.4,0 q-2.4,-1 -0.8,-2.8 z"/>
+  </g>
+  <path d="M112,138 a9,9 0 0 0 16,0" fill="none" stroke="#2A140C" stroke-width="3.4" stroke-linecap="round"/>
+
+  <g>
+    <path d="M99,45 L99,28 L109,37 L120,20 L131,37 L141,28 L141,45 Z" fill="url(#ouro)" stroke="#7A4018" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="96" y="45" width="48" height="10" rx="3.5" fill="url(#ouroEscuro)" stroke="#7A4018" stroke-width="2"/>
+    <g fill="#F7E6B0" stroke="#7A4018" stroke-width="1.4">
+      <circle cx="99" cy="25.5" r="3.4"/>
+      <circle cx="120" cy="17" r="3.8"/>
+      <circle cx="141" cy="25.5" r="3.4"/>
+    </g>
+  </g>
+</svg>

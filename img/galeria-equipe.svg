@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Arte de apoio representando a equipe da barbearia — espaço reservado para foto real da galeria">
+  <defs>
+    <radialGradient id="bgQ" cx="50%" cy="42%" r="85%">
+      <stop offset="0%" stop-color="#2E1C12"/>
+      <stop offset="70%" stop-color="#171310"/>
+      <stop offset="100%" stop-color="#0E0B08"/>
+    </radialGradient>
+    <linearGradient id="ouroGQ" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="55%" stop-color="#F2D47B"/>
+      <stop offset="100%" stop-color="#C98A33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgQ)"/>
+  <rect x="28" y="28" width="744" height="744" fill="none" stroke="#A96024" stroke-width="2"/>
+  <rect x="38" y="38" width="724" height="724" fill="none" stroke="#F2D47B" stroke-width="1" opacity="0.45"/>
+
+  <!-- Avental -->
+  <g transform="translate(400,360)">
+    <path d="M-56,-150 q56,-26 112,0 l16,64 q-18,10 -36,8 v182 q-36,14 -72,0 v-182 q-18,2 -36,-8 z" fill="#241B14" stroke="url(#ouroGQ)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M-40,-150 q40,-56 80,0" fill="none" stroke="#A96024" stroke-width="4"/>
+    <line x1="0" y1="-74" x2="0" y2="104" stroke="#A96024" stroke-width="3"/>
+    <rect x="-26" y="-58" width="52" height="38" rx="8" fill="#8F2B13" stroke="#A96024" stroke-width="3"/>
+    <text x="0" y="-32" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="3" fill="#F2D47B">T</text>
+    <path d="M-72,-84 l-34,58 M72,-84 l34,58" stroke="#A96024" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Boné -->
+  <g transform="translate(400,556)">
+    <path d="M-84,0 q10,-64 84,-64 q74,0 84,64 z" fill="#8F2B13" stroke="url(#ouroGQ)" stroke-width="5"/>
+    <path d="M-96,0 h192 q22,0 22,14 q0,10 -22,10 h-192 q-14,-4 -14,-14 q0,-8 14,-10 z" fill="#241B14" stroke="#A96024" stroke-width="4"/>
+    <circle cx="0" cy="-62" r="7" fill="#F2D47B"/>
+    <text x="0" y="-16" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" letter-spacing="5" fill="#F2D47B">TELLES</text>
+  </g>
+
+  <text x="400" y="668" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing="8" fill="url(#ouroGQ)">A EQUIPE</text>
+  <g stroke="#A96024" stroke-width="1.6">
+    <line x1="220" y1="692" x2="360" y2="692"/>
+    <line x1="440" y1="692" x2="580" y2="692"/>
+  </g>
+  <path d="M400,685 l7,7 -7,7 -7,-7 z" fill="#F2D47B"/>
+  <text x="400" y="740" text-anchor="middle" font-family="'Segoe UI', Verdana, Arial, sans-serif" font-size="16" letter-spacing="6" fill="#E8D8A7" opacity="0.75">ESPAÇO RESERVADO PARA FOTO REAL</text>
+</svg>

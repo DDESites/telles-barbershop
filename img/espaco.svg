@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Ilustração do espaço da Telles Barbershop: cadeira de barbeiro, espelho redondo e bancada com iluminação pendente">
+  <defs>
+    <linearGradient id="parede" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241B14"/>
+      <stop offset="100%" stop-color="#171310"/>
+    </linearGradient>
+    <linearGradient id="chao" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A231D"/>
+      <stop offset="100%" stop-color="#14100C"/>
+    </linearGradient>
+    <linearGradient id="ouroC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="100%" stop-color="#A96024"/>
+    </linearGradient>
+    <linearGradient id="espelho" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3A40"/>
+      <stop offset="50%" stop-color="#1D2529"/>
+      <stop offset="100%" stop-color="#39464D"/>
+    </linearGradient>
+    <pattern id="listrasParede" width="72" height="640" patternUnits="userSpaceOnUse">
+      <rect width="72" height="640" fill="none"/>
+      <rect width="22" height="640" fill="#8F2B13" opacity="0.5"/>
+      <rect x="36" width="8" height="640" fill="#A96024" opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#parede)"/>
+  <rect width="960" height="640" fill="url(#listrasParede)" opacity="0.55"/>
+  <rect y="520" width="960" height="120" fill="url(#chao)"/>
+  <line x1="0" y1="520" x2="960" y2="520" stroke="#A96024" stroke-width="2"/>
+
+  <!-- Lâmpadas pendentes -->
+  <g stroke="#A96024" stroke-width="3" fill="none">
+    <line x1="240" y1="0" x2="240" y2="86"/>
+    <line x1="720" y1="0" x2="720" y2="86"/>
+  </g>
+  <g>
+    <path d="M212,124 q28,-46 56,0 z" fill="url(#ouroC)"/>
+    <circle cx="240" cy="134" r="9" fill="#F7E6B0"/>
+    <circle cx="240" cy="134" r="17" fill="#F7E6B0" opacity="0.16"/>
+    <path d="M692,124 q28,-46 56,0 z" fill="url(#ouroC)"/>
+    <circle cx="720" cy="134" r="9" fill="#F7E6B0"/>
+    <circle cx="720" cy="134" r="17" fill="#F7E6B0" opacity="0.16"/>
+  </g>
+
+  <!-- Espelho redondo -->
+  <circle cx="480" cy="238" r="132" fill="url(#espelho)" stroke="url(#ouroC)" stroke-width="7"/>
+  <circle cx="480" cy="238" r="118" fill="none" stroke="#F2D47B" stroke-width="1.2" opacity="0.5"/>
+  <path d="M404,196 q34,-44 96,-40" fill="none" stroke="#E8D8A7" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Letreiro discreto no espelho -->
+  <text x="480" y="252" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="6" fill="#F2D47B" opacity="0.65">TELLES</text>
+
+  <!-- Cadeira de barbeiro -->
+  <g>
+    <path d="M420,330 q60,-22 120,0 l-6,52 q-54,-16 -108,0 z" fill="#2A231D" stroke="#A96024" stroke-width="3"/>
+    <rect x="430" y="384" width="100" height="18" rx="9" fill="#3A2E23" stroke="#A96024" stroke-width="2.5"/>
+    <path d="M436,402 h88 l10,74 h-108 z" fill="#241B14" stroke="#A96024" stroke-width="2.5"/>
+    <g fill="#8F2B13" stroke="#A96024" stroke-width="2">
+      <rect x="396" y="388" width="22" height="64" rx="10"/>
+      <rect x="542" y="388" width="22" height="64" rx="10"/>
+    </g>
+    <rect x="468" y="476" width="24" height="30" fill="#3A2E23" stroke="#A96024" stroke-width="2"/>
+    <ellipse cx="480" cy="512" rx="56" ry="9" fill="#14100C" stroke="#A96024" stroke-width="2"/>
+  </g>
+
+  <!-- Bancada lateral com produtos -->
+  <g>
+    <rect x="120" y="430" width="180" height="12" rx="4" fill="#3A2E23" stroke="#A96024" stroke-width="2"/>
+    <rect x="136" y="442" width="148" height="70" fill="#241B14" stroke="#A96024" stroke-width="2"/>
+    <line x1="210" y1="442" x2="210" y2="512" stroke="#A96024" stroke-width="1.5" opacity="0.6"/>
+    <rect x="152" y="392" width="18" height="38" rx="4" fill="#8F2B13" stroke="#A96024" stroke-width="1.6"/>
+    <rect x="178" y="382" width="16" height="48" rx="4" fill="#E8D8A7" stroke="#A96024" stroke-width="1.6"/>
+    <rect x="202" y="400" width="20" height="30" rx="4" fill="#3A2E23" stroke="#A96024" stroke-width="1.6"/>
+    <path d="M236,414 q10,-18 20,0 q-4,16 -10,16 q-6,0 -10,-16 z" fill="#E8D8A7" stroke="#A96024" stroke-width="1.6"/>
+  </g>
+
+  <!-- Toalhas dobradas -->
+  <g stroke="#A96024" stroke-width="2">
+    <rect x="640" y="466" width="96" height="16" rx="7" fill="#E8D8A7"/>
+    <rect x="648" y="450" width="96" height="16" rx="7" fill="#F5F2EC"/>
+    <rect x="656" y="434" width="96" height="16" rx="7" fill="#E8D8A7"/>
+  </g>
+
+  <!-- Navalha e pente na parede -->
+  <g transform="translate(796,268) rotate(18)" stroke="url(#ouroC)" stroke-width="3.4" fill="none" stroke-linecap="round">
+    <path d="M0,0 h56 q10,0 10,9 v6 q0,9 -10,9 h-56 z" fill="#2A231D"/>
+    <path d="M56,3 q16,-26 34,-30 q6,10 2,26 q-12,8 -36,8 z" fill="#E8D8A7" stroke="#A96024" stroke-width="2.4"/>
+  </g>
+  <g transform="translate(112,250) rotate(-14)" stroke="#A96024" stroke-width="2.6" fill="#2A231D">
+    <rect width="120" height="26" rx="8"/>
+    <g stroke-width="2">
+      <line x1="12" y1="26" x2="12" y2="44"/><line x1="26" y1="26" x2="26" y2="44"/>
+      <line x1="40" y1="26" x2="40" y2="44"/><line x1="54" y1="26" x2="54" y2="44"/>
+      <line x1="68" y1="26" x2="68" y2="44"/><line x1="82" y1="26" x2="82" y2="44"/>
+      <line x1="96" y1="26" x2="96" y2="44"/><line x1="110" y1="26" x2="110" y2="44"/>
+    </g>
+  </g>
+</svg>

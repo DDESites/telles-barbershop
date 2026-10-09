@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Ilustração das ferramentas do barbeiro: tesoura, navalha, pente e pincel de barba">
+  <defs>
+    <linearGradient id="fundoF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8F2B13"/>
+      <stop offset="55%" stop-color="#7A2410"/>
+      <stop offset="100%" stop-color="#5E1A0A"/>
+    </linearGradient>
+    <linearGradient id="ouroF" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7E6B0"/>
+      <stop offset="55%" stop-color="#F2D47B"/>
+      <stop offset="100%" stop-color="#C98A33"/>
+    </linearGradient>
+    <linearGradient id="aco" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F2EC"/>
+      <stop offset="100%" stop-color="#B9AC97"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#fundoF)"/>
+  <rect x="26" y="26" width="908" height="588" fill="none" stroke="#A96024" stroke-width="2"/>
+  <rect x="36" y="36" width="888" height="568" fill="none" stroke="#F2D47B" stroke-width="1" opacity="0.5"/>
+
+  <!-- Tesoura -->
+  <g transform="translate(180,180) rotate(-14)">
+    <g fill="none" stroke="url(#ouroF)" stroke-width="10" stroke-linecap="round">
+      <circle cx="-26" cy="248" r="30"/>
+      <circle cx="34" cy="248" r="30"/>
+      <path d="M-16,222 C-10,170 -2,120 0,86"/>
+      <path d="M24,222 C18,170 10,120 8,86"/>
+    </g>
+    <path d="M0,86 L-9,-96 L4,-120 L13,-96 L8,86 Z" fill="url(#aco)" stroke="#A96024" stroke-width="3"/>
+    <circle cx="4" cy="94" r="10" fill="#A96024"/>
+  </g>
+
+  <!-- Navalha -->
+  <g transform="translate(420,120) rotate(8)">
+    <path d="M20,0 h150 q26,0 26,22 v18 q0,22 -26,22 h-150 z" fill="#2A140C" stroke="url(#ouroF)" stroke-width="4"/>
+    <circle cx="160" cy="30" r="6" fill="#F2D47B"/>
+    <path d="M196,20 q86,-118 168,-128 q22,42 10,106 q-40,44 -178,44 z" fill="url(#aco)" stroke="#A96024" stroke-width="3.4"/>
+    <path d="M212,26 q76,-100 148,-110" fill="none" stroke="#F5F2EC" stroke-width="4" opacity="0.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Pente -->
+  <g transform="translate(560,330) rotate(-6)">
+    <rect width="240" height="52" rx="14" fill="#2A140C" stroke="url(#ouroF)" stroke-width="4"/>
+    <g stroke="url(#ouroF)" stroke-width="7" stroke-linecap="round">
+      <line x1="22" y1="52" x2="22" y2="96"/><line x1="46" y1="52" x2="46" y2="96"/>
+      <line x1="70" y1="52" x2="70" y2="96"/><line x1="94" y1="52" x2="94" y2="96"/>
+      <line x1="118" y1="52" x2="118" y2="96"/><line x1="142" y1="52" x2="142" y2="96"/>
+      <line x1="166" y1="52" x2="166" y2="96"/><line x1="190" y1="52" x2="190" y2="96"/>
+      <line x1="214" y1="52" x2="214" y2="96"/>
+    </g>
+    <text x="120" y="34" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="6" fill="#F2D47B">TELLES</text>
+  </g>
+
+  <!-- Pincel de barba -->
+  <g transform="translate(300,392) rotate(10)">
+    <path d="M40,0 q40,-64 80,0 q-8,52 -40,52 q-32,0 -40,-52 z" fill="#E8D8A7" stroke="#A96024" stroke-width="3.4"/>
+    <path d="M46,-6 q34,-46 68,0" fill="none" stroke="#F5F2EC" stroke-width="4" opacity="0.8"/>
+    <rect x="52" y="52" width="56" height="34" rx="8" fill="url(#ouroF)" stroke="#7A4018" stroke-width="3"/>
+    <rect x="60" y="86" width="40" height="72" rx="12" fill="#2A140C" stroke="url(#ouroF)" stroke-width="3.4"/>
+  </g>
+
+  <!-- Ornamento -->
+  <g fill="#F2D47B">
+    <path d="M480,560 l7,7 -7,7 -7,-7 z"/>
+    <path d="M452,563.5 l3.5,3.5 -3.5,3.5 -3.5,-3.5 z" opacity="0.8"/>
+    <path d="M508,563.5 l3.5,3.5 -3.5,3.5 -3.5,-3.5 z" opacity="0.8"/>
+  </g>
+</svg>
